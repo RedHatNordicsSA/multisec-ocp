@@ -1,0 +1,12 @@
+# Multi-dimensional Security OpenShift workshop
+
+# Access to environment
+
+## Credentials
+
+Developers: dev[1-50]
+Ops: ops[1-50]
+
+Password: multi sec workshop
+
+
