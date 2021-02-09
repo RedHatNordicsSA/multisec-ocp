@@ -1,12 +1,21 @@
 # Multi-dimensional Security OpenShift workshop
 
+# Setting up the development env.
+1. Install CRC, latest version.
+2. Run below command:
+```
+wget https://raw.githubusercontent.com/RedHatNordicsSA/multisec-ocp/main/ansible/ocp4-multisec-workshop/files/htpass-secret.yaml
+oc replace -f ./htpass-secret.yaml
+
+# Check status of auth replacement, pods to terminate and recreate for change to happen
+oc get pods -n openshift-authentication
+```
+
 # Access to environment
 
 ## Credentials
-
-Developers: dev[1-50]
-Ops: ops[1-50]
-
-Password: multi sec workshop
+* Developers: dev[1-50]
+* Ops: ops[1-50]
+* Password: multi sec workshop
 
 
